@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Cunia";
+  src: url(assets/cunia-webfont.woff);
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+}
+.outfit-standard {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.nav-font{
+    font-family: "Outfit, sans-serif";
+}
+@media (max-width: 991px){
+  .sidebar{
+    background-color: #18284859;
+    backdrop-filter: blur(10px);
+  }
+  .divider{
+    border-top: 1px solid rgba(255, 255, 255, 0.466);
+    border-left: 0px solid rgba(255, 255, 255, 0.466);
+    padding-left: 0px;
+  }
+  .c-fs{
+    font-size:6rem;
+  }
+
+  .nav-text{
+    color: #3d3d3d;
+  }
+  .size{
+    width: 100%;
+  }
+}
+
+.loginbox{
+  margin: auto;
+  top: 50%;
+  transform: translateY(30%);
+  width: 600px;
+  height: 645px;
+  box-shadow: 100px 25px 25px #d427ff;
+  border-radius: 13px;
+  border: solid 2px #ffb727;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 100px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+}
+
+.textfield{
+  background: 0;
+  border: 0;
+  font-family: "Outfit",sans-serif;
+  color: #fff;
+  width: 510px;
+}
+
+.cont{
+  border-bottom: solid 1px #ffb727;
+  width: 210px;
+  margin: auto;
+}
+.cont-l{
+  border-bottom: solid 1px #ffb727;
+  width: 510px;
+  margin: auto;
+}
+.textfield:focus{
+  outline: none;
+}
+
+.textfield::placeholder{
+  color: rgba(255, 255, 255, 0.69);;
+}
+
+.loginbtn{
+  background-color: #ffb727;
+  width: 510px;
+  height: 50px;
+  align-items: center;
+}
+
+
+
