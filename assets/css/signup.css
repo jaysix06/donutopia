@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Cunia";
-  src: url(assets/cunia-webfont.woff);
+  src: url("assets/cunia-webfont.woff");
 }
 
 body{
